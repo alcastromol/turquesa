@@ -1,0 +1,191 @@
+/*==============================
+=            Header            =
+==============================*/
+
+    .flecha{
+        width: 10px;
+        margin-left: 10px;
+    }
+
+    .mega-menu{
+        display: none;
+    }
+
+
+@media screen and (max-width: 1199px) {
+    .header nav ul, .menu, .videollamada{
+        display: none;
+    }
+
+    header.header.pt-1 {
+        padding: 0;
+    }
+
+}
+
+/*=====  End of Header  ======*/
+
+
+/*======================================
+=            Font-page main            =
+======================================*/
+
+    .slider {
+        position: absolute;
+        top: 0;
+        z-index: -1;
+    }
+
+    .fondo-chica {
+        margin-right: -10%;
+    }
+
+    .grafico1 {
+        top: 42%;
+        left: 13%;
+    }
+
+    .grafico2 {
+        top: 3%;
+        right: -7%;
+    }
+
+    .grafico3 {
+        top: 65%;
+        right: -23%;
+    }
+
+    .fondo-bola {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        z-index: -1;
+    }
+
+
+    .servicios .servicio {
+        background-color: var(--blanco);
+        padding: 30px;
+        -webkit-box-shadow: 5px 6px 15px #bbb;
+                box-shadow: 5px 6px 15px #bbb;
+    }
+
+    .ayudamos {
+        padding: 30px 45px;
+    }
+
+@media screen and (max-width: 1620px) {
+    .slider img {
+        max-width: initial;
+        width: 110%;
+    }
+}
+@media screen and (max-width: 1550px) {
+    .slider img {
+        max-width: initial;
+        width: 120%;
+    }
+    .titulo{
+        font-size: 60px;
+    }
+}
+@media screen and (max-width: 1450px) {
+    .portada .text-end{
+        text-align: center;
+    }
+    .grafico1 {
+        top: 15%;
+        left: 5%;
+    }
+    .grafico3 {
+        right: 0%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .slider img {
+        width: 130%;
+    }
+    .logo{
+        display: none;
+    }
+    .titulo{
+        font-size: 55px;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .titulo{
+        font-size: 45px;
+    }
+    .portada [class*='grafico'] img{
+        width: 70%;
+    }
+    .grafico1 {
+        left: 0%;
+    }
+    .grafico2, .grafico3 {
+        right: -15%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .titulo{
+        font-size: 35px;
+    }
+    body{
+        font-size: 16px;
+    }
+    .slider img {
+        width: 150%;
+    }
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 767px) {
+    .d-grid{display: block;}
+    .slider img {
+        width: 335%;
+    }
+    .fondo-bola {
+        display: none;
+    }
+    .fondo-chica {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .portada [class*='grafico'] img{
+        width: 60%;
+    }
+     .grafico1 {
+        top: 5%;
+        left: -30%;
+    }
+    .grafico2, .grafico3 {
+        right: -33%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+   .titulo {
+        font-size: 44px;
+    }
+}
+
+@media screen and (max-width: 345px) {
+   .titulo {
+        font-size: 35px;
+    }
+    .slider img {
+        width: 435%;
+    }
+    .portada [class*='grafico'] img{
+        width: 45%;
+    }
+}

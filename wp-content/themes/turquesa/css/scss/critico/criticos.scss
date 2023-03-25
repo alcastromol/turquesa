@@ -1,0 +1,33 @@
+/*=============================================
+Configurete Css Site
+=============================================*/
+@use "inc/_variables.scss";
+@use "inc/_reset.scss";
+@use "inc/_wrapper.scss";
+@use "inc/_button.scss";
+ 
+/*=============================================
+Mini Grid
+=============================================*/
+@use "inc/_display.scss";
+@use "inc/_width_height.scss";
+@use "inc/_text.scss";
+@use "inc/_position.scss";
+@use "inc/_index.scss";
+@use "inc/_grid.scss";
+@use "inc/_flex_box.scss";
+@use "inc/_padding.scss";
+@use "inc/_margin.scss";
+@use "inc/_others.scss";
+
+/*=============================================
+Parts
+=============================================*/
+@use "inc/_header.scss";
+@use "inc/paginas/search.scss";
+
+
+/*=============================================
+Media query's
+=============================================*/
+@use "inc/paginas/querys.scss";

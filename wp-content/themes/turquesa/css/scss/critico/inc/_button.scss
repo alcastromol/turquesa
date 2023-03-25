@@ -1,0 +1,13 @@
+/*=============================================
+Botones
+=============================================*/
+.btn {
+   padding: 10px 25px;
+   border-radius: 5px;
+   transition: 0.2s;
+}
+
+.btn.bg-degradado1:hover{
+    background: var(--obscuro);
+    color: var(--blanco);
+}

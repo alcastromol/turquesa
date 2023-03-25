@@ -1,0 +1,70 @@
+/*====================================
+=            Display grid            =
+====================================*/
+
+.d-grid{
+	display: -ms-grid;
+	display: grid;
+	grid-gap: 15px;
+}
+
+.grid11, .grid11-2{
+	-ms-grid-columns: 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+}
+
+.grid111{
+	-ms-grid-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid1111{
+	-ms-grid-columns: 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid12{
+	-ms-grid-columns: 1fr 2fr;
+	grid-template-columns: 1fr 2fr;
+}
+
+.grid110{
+	-ms-grid-columns: 1fr 11fr;
+	grid-template-columns: 1fr 11fr;
+	grid-gap: 2px;
+}
+/*=====  End of Display grid  ======*/
+
+@media screen and (max-width: 1400px) {
+    .grid1111{
+		-ms-grid-columns: 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+
+@media screen and (max-width: 1300px) {
+    
+}
+
+@media screen and (max-width: 1200px) {
+   	.fondo-chica {
+	    margin-right: -5%;
+	    margin-left: 10%;
+	}
+}
+@media screen and (max-width: 1000px) {
+	.grid11 {
+	    -ms-grid-columns: 1fr;
+	    grid-template-columns: 1fr;
+	}
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 767px) {
+    
+}
+
+@media screen and (max-width: 500px) {
+   
+}
